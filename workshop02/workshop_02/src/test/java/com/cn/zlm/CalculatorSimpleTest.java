@@ -45,7 +45,7 @@ public class CalculatorSimpleTest {
 
   @Test
   public void testSubtractThrowsException() {
-      Calculator c = new Calculator(3, 4);
+      Calculator c = new Calculator(4, 3);
       Throwable exception = assertThrows(
           ArithmeticException.class, 
           () -> c.subtract()
