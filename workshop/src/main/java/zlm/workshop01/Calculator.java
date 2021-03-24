@@ -1,3 +1,5 @@
+package zlm.workshop01;
+
 /**
   * A class that performs arithmetic operations
   * on two numbers it holds.
